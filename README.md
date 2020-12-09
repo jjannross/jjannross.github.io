@@ -1,7 +1,11 @@
 # jjannross.github.io
 My personal website. This website was created to show my portfolio. 
 
-I utilized responsive layout and images to ensure it looks the same no matter the device it's viewed on. Currently in the portfolio tab there are place holders. This will be filled in as I have more to add to the portfolio. A NavBar from Bootstrap was utilized to go through the different pages. As well as Boostrap's grid system. 
+I utilized responsive layout and images to ensure it looks the same no matter the device it's viewed on. Currently in the portfolio tab there are place holders. This will be filled in as I have more to add to the portfolio. A NavBar from Bootstrap was utilized to go through the different pages. You can see screen shots just below. I also utilized Boostrap's grid system for layout. 
+
+![index](images/index.png)
+![portfolio](images/portfolio.png)
+![](image)
 
 ## Prerequisites
 
@@ -11,7 +15,7 @@ Before you begin, ensure you have met the following requirements:
 * You have a `<Windows/Linux/Mac>` machine. 
 
 
-## Installing <Accessibility>
+## Installing <jjannross.github.io>
 
 To install <jjannross.github.io>, follow these steps:
 
@@ -39,7 +43,7 @@ To contribute to <jjannross.github.io>, follow these steps:
 1. Fork this repository.
 2. Create a branch: `git checkout -b <branch_name>`.
 3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin <accessibility>/<location>`
+4. Push to the original branch: `git push origin <jjannross.github.io>/<location>`
 5. Create the pull request.
 
 Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
