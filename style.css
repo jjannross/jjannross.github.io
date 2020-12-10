@@ -1,6 +1,4 @@
 /* --- navigation bar --- */
-/* header {
-} */
 body {
   background-color: white; 
   font-family:'Poppins', sans-serif;
@@ -25,11 +23,6 @@ main {
 }
 #id main body
 
-/* --- about me page --- */
-
-
-/* --- portfolio page --- */
-
 /* --- contact page --- */
 h3.form {
   text-align: center;
@@ -52,13 +45,15 @@ label {
 
   /* --- footer --- */
 .footer {
-  height: 10px;
-  margin-top: 3px;
-  background-color: black;
-  padding-top: 10px;
-  color: black; 
-}
-
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+ }
+ 
 @media only screen and (min-width:800px/*you can subsequently use AND/OR/NOT to add more rules after this. i.e. 'min-width:800px and max-width:1024px after*/){
   #rule{
     color:blue

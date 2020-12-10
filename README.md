@@ -1,11 +1,13 @@
 # jjannross.github.io
 My personal website. This website was created to show my portfolio. 
 
-I utilized responsive layout and images to ensure it looks the same no matter the device it's viewed on. Currently in the portfolio tab there are place holders. This will be filled in as I have more to add to the portfolio. A NavBar from Bootstrap was utilized to go through the different pages. You can see screen shots just below. I also utilized Boostrap's grid system for layout. 
+I utilized responsive layout and images to ensure it looks the same no matter the device it's viewed on. Currently in the portfolio tab there are place holders. This will be filled in as I have more to add to the portfolio. A NavBar from Bootstrap was utilized to go through the different pages. You can see screen shots just below. I also utilized Boostrap's grid system for layout. Finally, I utlized an HTML Validation service to ensure each page has valid HTML. 
 
 ![index](images/index.png)
 ![portfolio](images/portfolio.png)
-![](image)
+![contact](images/contact.png)
+
+To visit my personal website [click here](https://jjannross.github.io/)
 
 ## Prerequisites
 
