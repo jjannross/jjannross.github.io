@@ -15,71 +15,32 @@
 
 <body>
   <!-- Navagation Bar  -->
-  <header>
+  <header class="header w-100 bg-dark text-white">
     <h1>Jennifer Smith</h1>
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
-        <a class="nav-link active" id="home-tab" data-toggle="tab" href="index.html" role="tab" aria-controls="home"
+        <a class="nav-link bg-secondary text-white" id="home-tab" data-toggle="tab" href="index.html" role="tab" aria-controls="home"
           aria-selected="true">Home</a>
       </li>
       <li class="nav-item" role="presentation">
-        <a class="nav-link" id="profile-tab" data-toggle="tab" href="portfolio.html" role="tab" aria-controls="profile"
+        <a class="nav-link active" id="profile-tab" data-toggle="tab" href="portfolio.html" role="tab" aria-controls="profile"
           aria-selected="false">Portfolio</a>
       </li>
       <li class="nav-item" role="presentation">
-        <a class="nav-link" id="contact-tab" data-toggle="tab" href="contact.html" role="tab" aria-controls="contact"
+        <a class="nav-link bg-secondary text-white" id="contact-tab" data-toggle="tab" href="contact.html" role="tab" aria-controls="contact"
           aria-selected="false">Contact</a>
       </li>
     </ul>
-    <div class="tab-content" id="myTabContent">
-      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-    </div>
   </header>
-  <!-- <div class="container">
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./images/index.png" class="d-block w-100" alt="portfolio">
-      </div>
-      <div class="carousel-item">
-        <img src="./images/accessibility.png" class="d-block w-100" alt="screenshot1">
-      </div>
-      <div class="carousel-item">
-        <img src="./images/passwordg.png" class="d-block w-100" alt="screenshot2">
-      </div>
-      <!- <div class="carousel-item">
-        <img src="./images/safet.png" class="d-block w-100" alt="screenshot3">
-      </div>
-      <div class="carousel-item">
-        <img src="./images/weatherd.png" class="d-block w-100" alt="screenshot4">
-      </div> -->
-    <!-- </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </a>
-  </div>
-</div> --> 
   <!-- projects on cards  -->
   <div class="container">
     <div class="row">
       <h1>Portfolio</h1>
     </div>
     <!-- container for grid design  -->
-    <div class="container">
+  <div class="container">
    
-      <div class="row">
+    <div class="row">
       <div class="card text-white bg-secondary mb-3" style="max-width: 18rem; margin: 30px;">
         <div class="card-header">GitHub Portfolio</div>
         <div class="card-body">
@@ -103,44 +64,102 @@
         <div class="card-body">
           <a href="https://jjannross.github.io/Code-Quiz/" target="_blank" class="btn btn-light">Code Quiz</a>
           <br></br> 
-          <p class="card-text">Utilize Javascript to its fullest potential.</p>
+          <p class="card-text">A quiz to test how much you know about Javascript.</p>
         </div>
       </div>
     </div>
-      <br>
-      <div class="row" style="margin-bottom: 150px;">
-      <div class="card text-white bg-secondary mb-3" style="max-width: 18rem; margin: 30px;">
+  
+     
+  <div class="row">
+    <div class="card text-white bg-secondary mb-3" style="max-width: 18rem; margin: 30px;">
         <div class="card-header">Password Generator</div>
         <div class="card-body">
           <a href="https://jjannross.github.io/password-generator/" target="_blank" class="btn btn-light">Password Generator</a>
           <br></br> 
           <p class="card-text">Create a password, user determines length, which characters, letters, numbers are included. A password is chosen at random.</p>
         </div>
-      </div>
+    </div>
       <br>
-      <div class="card text-white bg-secondary mb-3" style="max-width: 18rem; margin: 30px;">
+    <div class="card text-white bg-secondary mb-3" style="max-width: 18rem; margin: 30px;">
         <div class="card-header">Weather Dashboard</div>
         <div class="card-body">
           <a href="https://jjannross.github.io/weatherdashboard/" target="_blank" class="btn btn-light">Weather Dashboard</a>
           <br></br> 
           <p class="card-text">Checkout current weather and 5 day forecast. Even features a special UV Indext indicator.</p>
         </div>
-      </div>
+    </div>
       <br>
-      <div class="card text-white bg-secondary mb-3" style="max-width: 18rem; margin: 30px;">
+    <div class="card text-white bg-secondary mb-3" style="max-width: 18rem; margin: 30px;">
         <div class="card-header">Safe Travels</div>
         <div class="card-body">
           <a href="https://jjannross.github.io/project1/" target="_blank" class="btn btn-light">Safe Travels</a>
           <br></br> 
           <p class="card-text">Collaborative project utilizing multiple APIs to create application that allows user to find cheapest and safest flight.</p>
         </div>
+    </div>
+  </div>
+   
+  <div class="row">
+    <div class="card text-white bg-secondary mb-3" style="max-width: 18rem; margin: 30px;">
+      <div class="card-header">Readme-Generator</div>
+      <div class="card-body">
+        <a href="https://jjannross.github.io/readme-generator/" target="_blank" class="btn btn-light">Generate a ReadMe</a>
+        <br></br> 
+        <p class="card-text">Builds a full readme based on input from the user.</p>
       </div>
     </div>
+    <br>
+    <div class="card text-white bg-secondary mb-3" style="max-width: 18rem; margin: 30px;">
+      <div class="card-header">Note Taker</div>
+      <div class="card-body">
+        <a href="https://jjannross.github.io/note-taker/" target="_blank" class="btn btn-light">Take Notes</a>
+        <br></br> 
+        <p class="card-text">An application that can be used to write and save notes. write and save notes. The notes can help organize and keep track of tasks I need to complete. This application will use an Express.js back end and will save and retrieve note data from a JSON file.</p>
+      </div>
+    </div>
+    <br>
+    <div class="card text-white bg-secondary mb-3" style="max-width: 18rem; margin: 30px;">
+      <div class="card-header">Team Profile Generator</div>
+      <div class="card-body">
+        <a href="https://jjannross.github.io/team-profile-generator/" target="_blank" class="btn btn-light">Get Team Profile</a>
+        <br></br> 
+        <p class="card-text">Command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom: 150px;">
+    <div class="card text-white bg-secondary mb-3" style="max-width: 18rem; margin: 30px;">
+      <div class="card-header">Employee Management System</div>
+      <div class="card-body">
+        <a href="https://jjannross.github.io/employee-management-system/." target="_blank" class="btn btn-light">Build a Team</a>
+        <br></br> 
+        <p class="card-text">Employee Management System allows a business owner to organize and plan their business by viewing and managing the departments, roles, and employees in my company.</p>
+      </div>
+    </div>
+    <br>
+    <div class="card text-white bg-secondary mb-3" style="max-width: 18rem; margin: 30px;">
+      <div class="card-header">Burger</div>
+      <div class="card-body">
+        <a href="https://jjannross.github.io/burger/." target="_blank" class="btn btn-light">Burger Eater</a>
+        <br></br> 
+        <p class="card-text">An application that can be used to write and save notes. write and save notes. The notes can help organize and keep track of tasks I need to complete. This application will use an Express.js back end and will save and retrieve note data from a JSON file.</p>
+      </div>
+    </div>
+    <br>
+    <!-- <div class="card text-white bg-secondary mb-3" style="max-width: 18rem; margin: 30px;">
+      <div class="card-header">Team Profile Generator</div>
+      <div class="card-body">
+        <a href="https://jjannross.github.io/team-profile-generator/" target="_blank" class="btn btn-light">Team Profile Generator</a>
+        <br></br> 
+        <p class="card-text">Command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.</p>
+      </div>
+    </div> -->
+  </div>
   
       
     <!-- footer  -->
-    <footer class="footer w-100 bg-dark text-white">
-      thanks for coming by!
+    <footer class="footer w-70 bg-dark text-white">
     </footer>
 </body>
 
