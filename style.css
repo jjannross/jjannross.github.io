@@ -63,6 +63,7 @@ label {
   height: 50px;
   width: 100%;
   text-align: center;
+  background: linear-gradient(90deg, #2a2b2b 0%, #353636 49%, #5a5c5c 90%);
  }
  
 @media only screen and (min-width:800px/*you can subsequently use AND/OR/NOT to add more rules after this. i.e. 'min-width:800px and max-width:1024px after*/){
@@ -86,8 +87,14 @@ label {
 
 .card {
       align: center;
+      background: linear-gradient(90deg, #2a2b2b 0%, #353636 49%, #5a5c5c 75%);
+      /* background: linear-gradient(90deg, #bdc5c5 0%, #98a0a0 49%, #5a5c5c 90%); */
     }
 #main-bio {
   margin-top: 50px;
 }
+
+/* .btn {
+  background: linear-gradient(90deg, #bdc5c5 0%, #98a0a0 49%, #5a5c5c 90%);
+} */
 
