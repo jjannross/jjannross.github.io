@@ -2,10 +2,21 @@
 body {
   background-color: white; 
   font-family:'Poppins', sans-serif;
+  margin-bottom: 140px;
 }
 html {
   position: relative;
   min-height: 100% 
+}
+header {
+  background: linear-gradient(90deg, #2a2b2b 0%, #353636 49%, #5a5c5c 90%);
+}
+.nav-tabs {
+  color: #5a5c5c;
+}
+.profile {
+  size: 50px;
+  <img src="..." class="img-fluid" alt="Responsive image">
 }
 .navbar {
   border-bottom: 20px solid rgb(66, 136, 163);
@@ -58,3 +69,25 @@ label {
   #rule{
     color:blue
   }
+
+#thumbnails {
+  align-content: center;
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+      }
+      
+/* Add a hover effect (blue shadow) */
+#thumbnails:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+      }
+   
+
+.card {
+      align: center;
+    }
+#main-bio {
+  margin-top: 50px;
+}
+
